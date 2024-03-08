@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name= "Suite">
+
+<!--<listeners>
+<listener class-name="com.qa.ExtentListener.ExtentReporter"/>
+</listeners>  -->
+
+ <!-- <test thread-count="5" name="Test"> -->
+
+  <test name="XYZ Bank Testcases">
+  <classes>
+   <!-- <test name="XYZ Bank Testcases"/> -->
+  
+ <!-- <class name="com.qa.testcases.CustomerLoginTestcase"> </class> -->
+    <class name="com.qa.testcases.BankManagerLoginTestcase"></class>
+    <class name="com.qa.testcases.BankingCustomerTestcase"></class>
+    
+   <class name="com.qa.testcases.CustomerLoginPageTest"></class>
+
+    <class name="com.qa.testcases.AddToCustomerTestcase"></class>  
+    <class name="com.qa.testcases.OpenAccountTestcase"></class>
+    <class name="com.qa.testcases.CustomerDepositsTestcase"></class>
+    <class name="com.qa.testcases.CustomerWithdrawalTestcase"></class>
+    <class name="com.qa.testcases.CustomerTransactionsTestcase"></class>
+
+      
+     <!--   <class name="com.qa.testcases.CustomerLoginPageTestcase"></class> -->
+  <!-- <class name="com.qa.testcases.BankManagerLoginTestcase"> </class>
+   <class name="com.qa.testcases.CustomerLoginTestcase"> </class>
+   <class name="com.qa.testcases.CustomerDepositsTestcase"> </class>
+   <class name="com.qa.testcases.OpenAccountTestcase"> </class>
+    <class name="com.qa.testcases.AddCustomerTestcase"> </class> -->
+
+
+  </classes>
+</test>   <!-- Test -->
+</suite> <!-- Suite -->

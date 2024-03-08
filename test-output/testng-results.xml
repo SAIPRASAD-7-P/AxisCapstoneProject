@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-08T21:02:04 IST" name="Suite" finished-at="2024-03-08T21:02:32 IST" duration-ms="28108">
+    <groups>
+    </groups>
+    <test started-at="2024-03-08T21:02:04 IST" name="XYZ Bank Testcases" finished-at="2024-03-08T21:02:32 IST" duration-ms="28108">
+      <class name="com.qa.testcases.BankingCustomerTestcase">
+        <test-method signature="validateCustomerLogin()[pri:0, instance:com.qa.testcases.BankingCustomerTestcase@7d0b7e3c]" started-at="2024-03-08T21:02:08 IST" name="validateCustomerLogin" finished-at="2024-03-08T21:02:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerLogin -->
+      </class> <!-- com.qa.testcases.BankingCustomerTestcase -->
+      <class name="com.qa.testcases.CustomerWithdrawalTestcase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.CustomerWithdrawalTestcase@470734c3]" started-at="2024-03-08T21:02:24 IST" name="setUp" finished-at="2024-03-08T21:02:26 IST" duration-ms="2162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customerloginpagetest()[pri:1, instance:com.qa.testcases.CustomerWithdrawalTestcase@470734c3]" started-at="2024-03-08T21:02:26 IST" name="customerloginpagetest" finished-at="2024-03-08T21:02:28 IST" duration-ms="1963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerloginpagetest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CustomerWithdrawalTestcase@470734c3]" started-at="2024-03-08T21:02:28 IST" name="tearDown" finished-at="2024-03-08T21:02:28 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.CustomerWithdrawalTestcase -->
+      <class name="com.qa.testcases.BankManagerLoginTestcase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.BankManagerLoginTestcase@a38c7fe]" started-at="2024-03-08T21:02:04 IST" name="setUp" finished-at="2024-03-08T21:02:07 IST" duration-ms="2641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customerloginpagetest()[pri:1, instance:com.qa.testcases.BankManagerLoginTestcase@a38c7fe]" started-at="2024-03-08T21:02:07 IST" name="customerloginpagetest" finished-at="2024-03-08T21:02:07 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerloginpagetest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.BankManagerLoginTestcase@a38c7fe]" started-at="2024-03-08T21:02:07 IST" name="tearDown" finished-at="2024-03-08T21:02:08 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.BankManagerLoginTestcase -->
+      <class name="com.qa.testcases.OpenAccountTestcase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.OpenAccountTestcase@2eae8e6e]" started-at="2024-03-08T21:02:16 IST" name="setUp" finished-at="2024-03-08T21:02:18 IST" duration-ms="2242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customerloginpagetest()[pri:1, instance:com.qa.testcases.OpenAccountTestcase@2eae8e6e]" started-at="2024-03-08T21:02:18 IST" name="customerloginpagetest" finished-at="2024-03-08T21:02:19 IST" duration-ms="1518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerloginpagetest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.OpenAccountTestcase@2eae8e6e]" started-at="2024-03-08T21:02:19 IST" name="tearDown" finished-at="2024-03-08T21:02:20 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.OpenAccountTestcase -->
+      <class name="com.qa.testcases.AddToCustomerTestcase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.AddToCustomerTestcase@4b741d6d]" started-at="2024-03-08T21:02:11 IST" name="setUp" finished-at="2024-03-08T21:02:14 IST" duration-ms="2420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customerloginpagetest()[pri:1, instance:com.qa.testcases.AddToCustomerTestcase@4b741d6d]" started-at="2024-03-08T21:02:14 IST" name="customerloginpagetest" finished-at="2024-03-08T21:02:15 IST" duration-ms="1684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerloginpagetest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.AddToCustomerTestcase@4b741d6d]" started-at="2024-03-08T21:02:15 IST" name="tearDown" finished-at="2024-03-08T21:02:16 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.AddToCustomerTestcase -->
+      <class name="com.qa.testcases.CustomerLoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.CustomerLoginPageTest@15bb5034]" started-at="2024-03-08T21:02:08 IST" name="setUp" finished-at="2024-03-08T21:02:10 IST" duration-ms="2111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customerloginpagetest()[pri:1, instance:com.qa.testcases.CustomerLoginPageTest@15bb5034]" started-at="2024-03-08T21:02:10 IST" name="customerloginpagetest" finished-at="2024-03-08T21:02:11 IST" duration-ms="1540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerloginpagetest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CustomerLoginPageTest@15bb5034]" started-at="2024-03-08T21:02:11 IST" name="tearDown" finished-at="2024-03-08T21:02:11 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.CustomerLoginPageTest -->
+      <class name="com.qa.testcases.CustomerTransactionsTestcase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.CustomerTransactionsTestcase@2cf3d63b]" started-at="2024-03-08T21:02:28 IST" name="setUp" finished-at="2024-03-08T21:02:30 IST" duration-ms="2243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customerloginpagetest()[pri:1, instance:com.qa.testcases.CustomerTransactionsTestcase@2cf3d63b]" started-at="2024-03-08T21:02:30 IST" name="customerloginpagetest" finished-at="2024-03-08T21:02:32 IST" duration-ms="1607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerloginpagetest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CustomerTransactionsTestcase@2cf3d63b]" started-at="2024-03-08T21:02:32 IST" name="tearDown" finished-at="2024-03-08T21:02:32 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.CustomerTransactionsTestcase -->
+      <class name="com.qa.testcases.CustomerDepositsTestcase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.CustomerDepositsTestcase@8f2ef19]" started-at="2024-03-08T21:02:20 IST" name="setUp" finished-at="2024-03-08T21:02:22 IST" duration-ms="2345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customerloginpagetest()[pri:1, instance:com.qa.testcases.CustomerDepositsTestcase@8f2ef19]" started-at="2024-03-08T21:02:22 IST" name="customerloginpagetest" finished-at="2024-03-08T21:02:24 IST" duration-ms="2038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerloginpagetest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CustomerDepositsTestcase@8f2ef19]" started-at="2024-03-08T21:02:24 IST" name="tearDown" finished-at="2024-03-08T21:02:24 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.CustomerDepositsTestcase -->
+    </test> <!-- XYZ Bank Testcases -->
+  </suite> <!-- Suite -->
+</testng-results>

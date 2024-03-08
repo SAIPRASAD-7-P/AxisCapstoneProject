@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="XYZ Bank Testcases(failed)">
+    <classes>
+      <class name="com.qa.testcases.OpenAccountTestcase">
+        <methods>
+          <include name="validateOpenAccount"/>
+        </methods>
+      </class> <!-- com.qa.testcases.OpenAccountTestcase -->
+    </classes>
+  </test> <!-- XYZ Bank Testcases(failed) -->
+</suite> <!-- Failed suite [Suite] -->
